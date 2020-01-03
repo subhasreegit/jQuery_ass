@@ -1,0 +1,21 @@
+<html>
+<title>The third jquerry assignment</title>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+ $(document).ready(function(){
+   $("button").click(function(){
+       if($('#box1').val().length==0 || $('#box2').val().length==0){
+     alert("Please fill all the fields");}
+  });
+});
+</script>
+</head>
+<body>
+<form>
+<p>First name:<br><input type="text" id="box1" name="Mickey"></p>
+<p>Last name:<br><input type="text" id="box2" name="Mickey"></p>
+<button>submit</button>
+</form>
+</body>
+</html>

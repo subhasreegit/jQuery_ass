@@ -1,0 +1,37 @@
+<html>
+<title>The second jquerry assignment</title>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#slideToclick").click(function(){
+    $("#slideDownbar").slideDown("1055");
+  });
+});
+</script>
+<style> 
+
+#slideToclick {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#slideDownbar{
+  padding: 50px;
+  display: none;
+  background-color:PaleTurquoise;
+  text-align:center;
+  border: solid 1px #c3c3c3;
+}
+
+</style>
+</head>
+<body>
+ 
+<div id="slideToclick">Click to slide down panel</div>
+<div id="slideDownbar">Hello world!</div>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<title>The first jquerry assignment</title>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ $("button").click(function(){
+   $("#Redbox").hide("slow");
+   });
+ });
+</script>
+<style>
+
+#Redbox{
+width:180px;
+height:180px;
+background-color:red;
+}
+
+</style>
+</head>
+<body>
+
+<div id="Redbox"></div><br>
+<h1><p>Click to hide the red box</p></h1><br>
+<button>click me</button>
+
+</body>
+</html>
